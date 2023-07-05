@@ -7,7 +7,7 @@ export default function Item(props) {
         <div>
             <span className={`${done===true ? 'line-through': ''} pr-3 text-[20px] capitalize`}>{props.items}</span>
         </div>
-        <div className='text-[14px]' onClick={()=> props.removeHandler(props.id)}>
+        <div className='text-[14px] mt-2' onClick={()=> props.removeHandler(props.id)}>
 Delete
         </div>
     </div>
