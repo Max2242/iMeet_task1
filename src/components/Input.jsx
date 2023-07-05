@@ -8,7 +8,7 @@ export default function Input(props) {
 
       <input type="text" placeholder='Enter data here' ref={inputBox}  className='capitalize p-3 focus:outline-none border-slate-500 border w-[90%] text-transform-capitalize'/>
    
-   <div className='cursor-pointer w-[50px] h-[50px] bg-[#878AF5] text-white text-3xl rounded-[50%] flex justify-center items-center ' onClick={()=>{
+   <div className='cursor-pointer mx-2 w-[50px] h-[50px] bg-[#878AF5] text-white text-3xl rounded-[50%] flex justify-center items-center ' onClick={()=>{
     props.handler(inputBox.current.value) 
     inputBox.current.value=" "}}>
     +</div>
