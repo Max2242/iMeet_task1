@@ -31,7 +31,7 @@ setToDo(newState);
   return (
     <>
     <div className="bg-black h-screen p-3 flex items-center justify center ">
-      <div className="bg-[#8EC5FC] mx-auto rounded w-[600px] h-[450px]">
+      <div className="bg-white mx-auto rounded w-[600px] h-[450px]">
         <Input handler={addToDoHandler}/>
         <List data={todo} removeHandler={removeToDo}/>
       </div>
